@@ -18,6 +18,15 @@
 -   Envio de arquivo com formulário.
 -   Apresentação dos arquivos upados por meio de um script PHP.
 
+### Participantes
+
+[ 💻 Rafael Henrique](https://github.com/soaresgg10)
+
+[ 💻 Leonardo dos Santos](https://github.com/lelesanmir)
+
+[ 💻 Rodrigo Souza Marques](https://github.com/rodrigomarquesads)
+
+
 ### Barra de progresso
 
 ![progress](https://progress-bar.dev/100/ 'progresso')
