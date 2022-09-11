@@ -33,9 +33,6 @@
                         $message = 'Arquivo enviado com sucesso!';
             ?>
                         <!-- Tags HTML inbutidas no meio do código PHP. -->
-                        <!-- No parágrafo será exibido a informação da ação. -->
-                        <p class="info"><?php echo $message ?></p>
-
                         <?php
                         // Caso a extensão não seja ".pdf", o arquivo será exibido em uma tag img.
                         if ($extensaoArquivo !== 'pdf') { ?>
@@ -48,17 +45,21 @@
                         <?php
                         }
                         ?>
-        </div>
-    </div>
-<?php
+            <?php
                     } else {
+                        // Caso ocorra uma erro no upload no arquivo irá ser informado.
                         $message = 'Ocorreu um erro no envio do arquivo, tente novamente.';
                     }
                 } else {
+                    // Caso o tipo de extensão não seja permitida será informado.
                     $message =  'Este tipo de arquivo não é permitido!';
                 }
             }
-?>
+            ?>
+            <!-- No parágrafo será exibido a informação da ação. -->
+            <p class="info"><?php echo $message ?></p>
+        </div>
+    </div>
 </body>
 
 </html>
