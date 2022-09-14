@@ -28,6 +28,7 @@
             <p class="member">Rafael Henrique</p>
             <p class="member">Eduardo</p>
             <p class="member">Fabricio</p>
+            <p></p>
         </footer>
     </div>
 
