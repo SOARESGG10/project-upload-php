@@ -12,14 +12,13 @@
 <body>
 
     <div class="container">
-        <form action="./assets/php/" enctype="multipart/form-data" class="upload-files" method="POST">
+        <form action="./assets/php/upload.php" enctype="multipart/form-data" class="upload-files" method="POST">
             <div class="inputs">
                 <h2 id="title">UPLOAD - PHP</h2>
                 <div class="text-input">
                     <label for="file-upload">Clique para fazer o upload de um arquivo</label>
                 </div>
-                <input type="hidden" name="MAX_FILE_SIZE" value="30000">
-                <input class="input-file" type="file" name="file-upload" id="file-upload" required>
+                <input class="input-file" type="file" name="file" id="file-upload" value="" required>
                 <input class="input-button" name="submit" type="submit" value="Enviar">
             </div>
         </form>
@@ -29,6 +28,8 @@
             <p class="member">Eduardo</p>
             <p class="member">Fabricio</p>
             <p></p>
+            <p class="member">Leonardo dos Santos</p>
+            <p class="member">Rodrigo Souza Marques</p>
         </footer>
     </div>
 
